@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://cdn.tailwindcss.com"></script>
+        <title>Marasigan Water Station</title>
+        <style>
+            .text-primary{
+                color: #1E53BA;
+            }
+            .text-black{
+                color: #2C2A2A;
+            }
+            .text-muted{
+                color: #686666;
+            }
+            .bg-primary{
+                background-color: #1E53BA;
+            }
+        </style>
+    </head>
+	<body>
+		<nav class="flex p-3 items-center justify-between border-b">
+            <div id="logo" class="bg-gray-600 w-12 h-12 p-1"></div>
+            <div id="nav-items" class="flex">
+                <h6 class="mx-3 text-primary">Home</h6>
+                <h6 class="mx-3 text-primary">About Us</h6>
+                <h6 class="mx-3 text-primary">Products</h6>
+            </div>
+        </nav>
+        <div id="hook" class="p-10 md:px-20">
+            <div class="grid grid-cols-2 gap-3">
+                <div class="col-span-2 md:col-span-1 items-center flex">
+                    <div class="block">
+                        <h1 class="text-4xl text-primary font-semibold">Experience Purity You Can Trust: Advanced Filtration for Crystal-Clear Water</h1>
+                        <p class="text-muted my-4">At our water refilling station, we utilize cutting-edge filtration technology to ensure every drop of water meets the highest standards of purity. Trust in our sophisticated machinery to deliver safe, refreshing, and crystal-clear water for you and your family.</p>
+                    </div>                       
+                </div>
+                <div class="col-span-2 md:col-span-1">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Placeholder_view_vector.svg" class="w-96 mx-auto rounded-md">
+                </div>
+            </div>
+        </div>
+        <div id="trust" class="bg-primary p-10 ">
+            <h1 class="text-4xl text-slate-100 font-semibold text-center">Trusted by Businesses for Reliable Water Solutions</h1>
+            <div class="grid grid-cols-5 mt-10">
+                <div class=" p-2 md:col-span-1 col-span-5">
+                    <img src="assets/logo/time-travellers-beach-resort.jpg" class="w-40 mx-auto rounded">
+                    <h6 class="text-slate-100 text-center my-3">Time Travellers Hotel</h6>
+                </div>
+                <div class=" p-2 md:col-span-1 col-span-5">
+                    <img src="assets/logo/quins-land-shop-and-save.jpg" class="w-40 mx-auto rounded">
+                    <h6 class="text-slate-100 text-center my-3">Quin's Land Shop and Save</h6>
+                </div>
+                <div class=" p-2 md:col-span-1 col-span-5">
+                    <img src="assets/logo/bubble-n-brew-cafe.jpg" class="w-40 mx-auto rounded">
+                    <h6 class="text-slate-100 text-center my-3">Bubble n' Brew</h6>
+                </div>
+                <div class=" p-2 md:col-span-1 col-span-5">
+                    <img src="assets/logo/pasalobong-souvenir-cafe.jpg" class="w-40 mx-auto rounded">
+                    <h6 class="text-slate-100 text-center my-3">Pasalobong Souvenir + Cafe</h6>
+                </div>
+                <div class=" p-2 md:col-span-1 col-span-5">
+                    <img src="assets/logo/ginga-kitchen-x-cafe.jpg" class="w-40 mx-auto rounded">
+                    <h6 class="text-slate-100 text-center my-3">Ginga Kitchen X Cafe</h6>
+                </div>
+            </div>
+        </div>
+        <div id="shop" class="p-10">
+            <h5 class="text-3xl text-primary">Products</h5>
+            <div id="products" class="mt-9 flex">
+                <div id="product-item" class="max-w-48">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Placeholder_view_vector.svg" class="w-full mx-auto rounded">
+                    <div id="product-item-title" class="my-2">
+                        <h6 class="text-primary text-lg">Product Name</h6>
+                        <p class="text-xs text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fermentum.</p>
+                    </div>
+                    <div id="product-item-footer" class="grid grid-cols-3">
+                        <button class="w-full bg-primary text-slate-100 text-sm py-1 rounded col-span-2 border">Add To Cart</button>
+                        <div class="col-span-1 flex items-center">
+                            <img src="assets/heart-outline.svg" class="col-span-1 mx-auto items-center">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+	</body>
+</html>
